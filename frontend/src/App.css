@@ -1,0 +1,1183 @@
+.App {
+  width: 100%;
+  height: auto;
+}
+
+.ecosium {
+  width: 100%;
+  height: auto;
+}
+
+.ecosium-logo {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+.ecosium-logo-main {
+  width: 250px;
+  height: auto;
+}
+
+
+.ecosium-logo h1 {
+  font-size: 70px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: #38b6ff;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.ecosium-coming-soon {
+  width: 100%;
+  flex-direction: column;
+}
+
+.ecosium-coming-soon h1 {
+  font-size: 48px;
+  font-weight: 500;
+  padding: 10px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.ecosium-coming-soon h2 {
+  width: 60%;
+  font-size: 36px;
+  font-weight: 300;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.countdown {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.countdown-main {
+  width: auto;
+  height: auto;
+  padding: 40px 80px;
+  gap: 50px;
+  background-color: rgb(246, 246, 246);
+  border-radius: 20px;
+  border: 1px solid black;
+
+}
+
+.countdown-item {
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.progress-ring {
+  transform: rotate(-90deg);
+  z-index: 1;
+}
+
+.progress-ring-circle {
+  transition: stroke-dashoffset 1s linear;
+  transform: rotate(0deg);
+  transform-origin: center;
+}
+
+.countdown-number {
+  position: absolute;
+  width: 106px;
+  height: 106px;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.countdown span {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+span.timer-text {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.ecosium-emai-subscriptons {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+}
+
+.ecosium-emai-subscriptons-main {
+  width: 80%;
+  height: 50px;
+  gap: 30px;
+}
+
+.ecosium-emai-subscriptons-email {
+  width: 400px;
+  height: 50px;
+  border: 2px solid #38b6ff;
+  border-radius: 25px;
+}
+
+.ecosium-emai-subscriptons-email input {
+  width: 100%;
+  border: transparent;
+  padding-left: 30px;
+  font-size: 18px;
+  background-color: transparent;
+  border-radius: 25px;
+  outline: none;
+}
+
+button {
+  height: 50px;
+  padding: 0 40px;
+  border-radius: 25px;
+  border: transparent;
+  background-color: #38b6ff;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.ecosium-footer {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 50px;
+  position: relative;
+}
+
+.ecosium-footer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ecosium-footer-content {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  background-color: #38b6ff;
+  color: white;
+  margin: 0;
+  font-size: 18px;
+}
+
+
+/* 1201px - 1400px */
+/* 1201px - 1400px */
+/* 1201px - 1400px */
+
+@media (min-width: 993px) and (max-width: 1400px) {
+
+  .ecosium-logo {
+    margin-top: 100px;
+  }
+
+  .ecosium-logo-main {
+    width: 250px;
+    height: auto;
+  }
+
+
+  .ecosium-logo h1 {
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 5px;
+  }
+
+
+  .ecosium-coming-soon h1 {
+    font-size: 48px;
+    font-weight: 500;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .ecosium-coming-soon h2 {
+    width: 60%;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 10px;
+  }
+
+  .countdown {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .countdown-main {
+    padding: 40px 80px;
+    gap: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+  }
+
+  .countdown-item {
+    gap: 10px;
+  }
+
+  .progress-ring {
+    transform: rotate(-90deg);
+    z-index: 1;
+  }
+
+  .progress-ring-circle {
+    transition: stroke-dashoffset 1s linear;
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+
+  .countdown-number {
+    width: 106px;
+    height: 106px;
+    top: 0;
+    border-radius: 50%;
+  }
+
+  .countdown span {
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  span.timer-text {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .ecosium-emai-subscriptons {
+    margin-top: 40px;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .ecosium-emai-subscriptons-main {
+    width: 80%;
+    height: 50px;
+    gap: 30px;
+  }
+
+  .ecosium-emai-subscriptons-email {
+    width: 400px;
+    height: 50px;
+    border: 2px solid #38b6ff;
+    border-radius: 25px;
+  }
+
+  .ecosium-emai-subscriptons-email input {
+    width: 100%;
+    padding-left: 30px;
+    font-size: 18px;
+    border-radius: 25px;
+  }
+
+  button {
+    height: 50px;
+    padding: 0 40px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+
+  .ecosium-footer {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+  }
+
+  .ecosium-footer img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ecosium-footer-content {
+    bottom: 20px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 18px;
+  }
+
+}
+
+/* 769px - 993px */
+/* 769px - 993px */
+/* 769px - 993px */
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+  .ecosium-logo {
+    margin-top: 100px;
+  }
+
+  .ecosium-logo-main {
+    width: 220px;
+    height: auto;
+  }
+
+
+  .ecosium-logo h1 {
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 5px;
+  }
+
+
+  .ecosium-coming-soon h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .ecosium-coming-soon h2 {
+    width: 85%;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+  }
+
+  .countdown {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .countdown-main {
+    padding: 30px 40px;
+    gap: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+  }
+
+  .countdown-item {
+    gap: 10px;
+  }
+
+  .progress-ring {
+    width: 100px;
+    height: 100px;
+    transform: rotate(-90deg);
+    z-index: 1;
+  }
+
+  .progress-ring-circle {
+    transition: stroke-dashoffset 1s linear;
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+
+  .countdown-number {
+    width: 96%;
+    height: 96px;
+    top: 0;
+    border-radius: 50%;
+  }
+
+  .countdown span {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  span.timer-text {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .ecosium-emai-subscriptons {
+    margin-top: 40px;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .ecosium-emai-subscriptons-main {
+    width: 80%;
+    height: 50px;
+    gap: 20px;
+  }
+
+  .ecosium-emai-subscriptons-email {
+    width: 370px;
+    height: 50px;
+    border: 2px solid #38b6ff;
+    border-radius: 25px;
+  }
+
+  .ecosium-emai-subscriptons-email input {
+    width: 100%;
+    padding-left: 25px;
+    font-size: 18px;
+    border-radius: 25px;
+  }
+
+  button {
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .ecosium-footer {
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+  }
+
+  .ecosium-footer img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ecosium-footer-content {
+    bottom: 20px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 16px;
+  }
+
+}
+
+
+
+/* 577px - 768px */
+/* 577px - 768px */
+/* 577px - 768px */
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+  .ecosium-logo {
+    margin-top: 100px;
+  }
+
+  .ecosium-logo-main {
+    width: 190px;
+    height: auto;
+  }
+
+
+  .ecosium-logo h1 {
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+
+
+  .ecosium-coming-soon h1 {
+    font-size: 36px;
+    font-weight: 500;
+    padding: 8px;
+    margin-top: 15px;
+  }
+
+  .ecosium-coming-soon h2 {
+    width: 90%;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 10px;
+  }
+
+  .countdown {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .countdown-main {
+    padding: 30px 20px;
+    gap: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+  }
+
+  .countdown-item {
+    gap: 10px;
+  }
+
+  .progress-ring {
+    width: 96px;
+    height: 96px;
+    transform: rotate(-90deg);
+    z-index: 1;
+  }
+
+  .progress-ring-circle {
+    transition: stroke-dashoffset 1s linear;
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+
+  .countdown-number {
+    width: 96px;
+    height: 96px;
+    top: 0;
+    border-radius: 50%;
+  }
+
+  .countdown span {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  span.timer-text {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .ecosium-emai-subscriptons {
+    margin-top: 40px;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .ecosium-emai-subscriptons-main {
+    width: 80%;
+    height: auto;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .ecosium-emai-subscriptons-email {
+    width: 420px;
+    height: 50px;
+    border: 2px solid #38b6ff;
+    border-radius: 25px;
+  }
+
+  .ecosium-emai-subscriptons-email input {
+    width: 100%;
+    padding-left: 25px;
+    font-size: 18px;
+    border-radius: 25px;
+  }
+
+  button {
+    height: 50px;
+    padding: 0 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .ecosium-footer {
+    width: 100%;
+    height: 480px;
+    margin-top: 50px;
+  }
+
+  .ecosium-footer img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ecosium-footer-content {
+    bottom: 20px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 16px;
+  }
+
+}
+
+/* 481px - 576px */
+/* 481px - 576px */
+/* 481px - 576px */
+
+@media (min-width: 481px) and (max-width: 576px) {
+
+  .ecosium-logo {
+    margin-top: 130px;
+  }
+
+  .ecosium-logo-main {
+    width: 190px;
+    height: auto;
+  }
+
+
+  .ecosium-logo h1 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+
+
+  .ecosium-coming-soon h1 {
+    font-size: 32px;
+    font-weight: 500;
+    padding: 8px;
+    margin-top: 15px;
+  }
+
+  .ecosium-coming-soon h2 {
+    width: 90%;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 10px;
+  }
+
+  .countdown {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .countdown-main {
+    padding: 30px 20px;
+    gap: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+  }
+
+  .countdown-item {
+    gap: 10px;
+  }
+
+  .progress-ring {
+    width: 80px;
+    height: 80px;
+    transform: rotate(-90deg);
+    z-index: 1;
+  }
+
+  .progress-ring-circle {
+    transition: stroke-dashoffset 1s linear;
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+
+  .countdown-number {
+    width: 80px;
+    height: 80px;
+    top: 0;
+    border-radius: 50%;
+  }
+
+  .countdown span {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  span.timer-text {
+    font-size: 19px;
+    font-weight: 400;
+  }
+
+  .ecosium-emai-subscriptons {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .ecosium-emai-subscriptons-main {
+    width: 80%;
+    height: auto;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .ecosium-emai-subscriptons-email {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #38b6ff;
+    border-radius: 25px;
+  }
+
+  .ecosium-emai-subscriptons-email input {
+    width: 100%;
+    padding-left: 25px;
+    font-size: 18px;
+    border-radius: 25px;
+  }
+
+  button {
+    height: 50px;
+    padding: 0 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .ecosium-footer {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+  }
+
+  .ecosium-footer img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ecosium-footer-content {
+    bottom: 20px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 15px;
+  }
+
+}
+
+/* 376px - 480px */
+/* 376px - 480px */
+/* 376px - 480px */
+
+@media (min-width: 376px) and (max-width: 480px) {
+
+  .ecosium-logo {
+    margin-top: 130px;
+  }
+
+  .ecosium-logo-main {
+    width: 190px;
+    height: auto;
+  }
+
+
+  .ecosium-logo h1 {
+    width: 100%;
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+
+
+  .ecosium-coming-soon h1 {
+    font-size: 28px;
+    font-weight: 400;
+    padding: 10px 0px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .ecosium-coming-soon h2 {
+    width: 90%;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 10px;
+  }
+
+  .countdown {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .countdown-main {
+    padding: 20px 10px;
+    gap: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+  }
+
+  .countdown-item {
+    gap: 10px;
+  }
+
+  .progress-ring {
+    width: 70px;
+    height: 70px;
+    transform: rotate(-90deg);
+    z-index: 1;
+  }
+
+  .progress-ring-circle {
+    transition: stroke-dashoffset 1s linear;
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+
+  .countdown-number {
+    width: 70px;
+    height: 70px;
+    top: 0;
+    border-radius: 50%;
+  }
+
+  .countdown span {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  span.timer-text {
+    font-size: 19px;
+    font-weight: 400;
+  }
+
+  .ecosium-emai-subscriptons {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .ecosium-emai-subscriptons-main {
+    width: 85%;
+    height: auto;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .ecosium-emai-subscriptons-email {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #38b6ff;
+    border-radius: 25px;
+  }
+
+  .ecosium-emai-subscriptons-email input {
+    width: 100%;
+    padding-left: 25px;
+    font-size: 18px;
+    border-radius: 25px;
+  }
+
+  button {
+    height: 40px;
+    padding: 0 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .ecosium-footer {
+    width: 100%;
+    height: 550px;
+    margin-top: 20px;
+  }
+
+  .ecosium-footer img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ecosium-footer-content {
+    bottom: 20px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 14px;
+  }
+
+}
+
+/* 376px - 480px */
+/* 376px - 480px */
+/* 376px - 480px */
+
+@media (min-width: 376px) and (max-width: 480px) {
+
+  .ecosium-logo {
+    margin-top: 130px;
+  }
+
+  .ecosium-logo-main {
+    width: 190px;
+    height: auto;
+  }
+
+
+  .ecosium-logo h1 {
+    width: 100%;
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+
+
+  .ecosium-coming-soon h1 {
+    font-size: 28px;
+    font-weight: 400;
+    padding: 10px 0px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .ecosium-coming-soon h2 {
+    width: 90%;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 10px;
+  }
+
+  .countdown {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .countdown-main {
+    padding: 20px 10px;
+    gap: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+  }
+
+  .countdown-item {
+    gap: 10px;
+  }
+
+  .progress-ring {
+    width: 70px;
+    height: 70px;
+    transform: rotate(-90deg);
+    z-index: 1;
+  }
+
+  .progress-ring-circle {
+    transition: stroke-dashoffset 1s linear;
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+
+  .countdown-number {
+    width: 70px;
+    height: 70px;
+    top: 0;
+    border-radius: 50%;
+  }
+
+  .countdown span {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  span.timer-text {
+    font-size: 19px;
+    font-weight: 400;
+  }
+
+  .ecosium-emai-subscriptons {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .ecosium-emai-subscriptons-main {
+    width: 85%;
+    height: auto;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .ecosium-emai-subscriptons-email {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #38b6ff;
+    border-radius: 25px;
+  }
+
+  .ecosium-emai-subscriptons-email input {
+    width: 100%;
+    padding-left: 25px;
+    font-size: 18px;
+    border-radius: 25px;
+  }
+
+  button {
+    height: 40px;
+    padding: 0 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .ecosium-footer {
+    width: 100%;
+    height: 550px;
+    margin-top: 20px;
+  }
+
+  .ecosium-footer img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ecosium-footer-content {
+    bottom: 20px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 14px;
+  }
+
+}
+
+/* 235px - 375px */
+/* 235px - 375px */
+/* 235px - 375px */
+
+@media (min-width: 235px) and (max-width: 375px) {
+ 
+  .ecosium-logo {
+    margin-top: 120px;
+  }
+
+  .ecosium-logo-main {
+    width: 150px;
+    height: auto;
+  }
+
+
+  .ecosium-logo h1 {
+    width: 100%;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+
+
+  .ecosium-coming-soon h1 {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .ecosium-coming-soon h2 {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+  }
+
+  .countdown {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .countdown-main {
+    padding: 20px 30px;
+    gap: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    flex-direction: column;
+  }
+
+  .countdown-item {
+    gap: 10px;
+  }
+
+  .progress-ring {
+    width: 70px;
+    height: 70px;
+    transform: rotate(-90deg);
+    z-index: 1;
+  }
+
+  .progress-ring-circle {
+    transition: stroke-dashoffset 1s linear;
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+
+  .countdown-number {
+    width: 70px;
+    height: 70px;
+    top: 0;
+    border-radius: 50%;
+  }
+
+  .countdown span {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  span.timer-text {
+    font-size: 19px;
+    font-weight: 400;
+  }
+
+  .ecosium-emai-subscriptons {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .ecosium-emai-subscriptons-main {
+    width: 95%;
+    height: auto;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .ecosium-emai-subscriptons-email {
+    width: 95%;
+    height: 40px;
+    border: 2px solid #38b6ff;
+    border-radius: 25px;
+  }
+
+  .ecosium-emai-subscriptons-email input {
+    width: 100%;
+    padding-left: 25px;
+    font-size: 18px;
+    border-radius: 25px;
+  }
+
+  button {
+    height: 40px;
+    padding: 0 30px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  .ecosium-footer {
+    width: 100%;
+    height: 550px;
+    margin-top: 20px;
+  }
+
+  .ecosium-footer img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ecosium-footer-content {
+    bottom: 20px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-wrap: wrap;
+  }
+}
+
+/* 235px - 375px */
+/* 235px - 375px */
+/* 235px - 375px */
+
+@media (max-width: 235px){
+  .App{
+    display: none;
+  }
+}
